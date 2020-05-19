@@ -49,7 +49,7 @@ The following are the steps necessary to run through our data pipelining process
 
 4. Feed `Cleaned_Events_With_SessionID.csv` into `cleaned_labeling.ipynb` to generate churn labels. Outputs `labeled_data.csv`.
 
-5. Feed `labeled_data.csv` and `Cleaned_Events_With_SessionID.csv` into `Churn_Metrics.ipynb` to generate member behavior metrics for each user. Our data is now ready to be modeled.
+5. Feed `labeled_data.csv` and `Cleaned_Events_With_SessionID.csv` into `Churn_Metrics.ipynb` to generate member behavior metrics for each user. Our data, `labeled_data_with_metrics.csv`, is now ready to be modeled.
 
 ## Instructions for Consultants
 
