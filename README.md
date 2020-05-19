@@ -27,7 +27,7 @@ Develops member behavior metrics for each user in our people dataset. Calculates
 
 `Modeling - Decision Trees + XGBoost.ipynb`
 
-Includes any modeling using Decision Trees, Random Forest, XGBoost, and stacking previous models. Assumes `labeled_data_with_metrics.csv` has been correctly written to and splits this dataset for training and testing purposes. Any hyperparameter tuning functions and visualizations have also been included. Outputs `decision_tree.png`, a visualization of generated decision tree model as well as `RandomForest_Predicted_Churned.csv`, and `XGBoost_Predicted_Churned.csv` containing users which our model has predicted to have churned (indicated by `predicted_churned` column).
+Includes any modeling using Decision Trees, Random Forest, XGBoost, and stacking previous models. Assumes `labeled_data_with_metrics.csv` has been correctly written to and splits this dataset for training and testing purposes. Any hyperparameter tuning functions and visualizations have also been included. Outputs `decision_tree.png`, a visualization of generated decision tree model as well as `RandomForest_Predicted_Churned.csv`, and `XGBoost_Predicted_Churned.csv` containing users which our model has predicted to have churned (indicated by `predicted_churned` column based off a 70/30 train-test split).
 
 `Modeling - Logistic.ipynb`
 
