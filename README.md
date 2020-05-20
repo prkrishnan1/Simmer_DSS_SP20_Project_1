@@ -10,7 +10,7 @@ Input dataset pulled from MixPanel using JQL interfacing. Includes both Mixpanel
 
 `EDA.ipynb`
 
-Merges the people and events datasets. Each column is cleaning and processed appropriately. This is then sent to our labeling and metric development notebooks. 
+Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (cleaned_allPeople.csv) is sent to our labeling and metric development notebooks. 
 
 `Session_Labeling.ipynb`
 
