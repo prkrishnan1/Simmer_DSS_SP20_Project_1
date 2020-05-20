@@ -8,7 +8,7 @@ The following files comprise our finished work of Simmer's Dish Churn Prediction
 
 Input dataset pulled from MixPanel using JQL interfacing. Includes both Mixpanel events and People datasets.
 
-`EDA.ipynb`
+`Cleaning.ipynb`
 
 Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (cleaned_allPeople.csv) is sent to our labeling and metric development notebooks. 
 
@@ -16,7 +16,7 @@ Merges the people and events datasets. Each column is cleaning and processed app
 
 Assigns unique session identifier numbers to each session in our events dataset. This will be used for labeling and metric development purposes. Assumes `cleaned_AllPeople.csv` is a correctly structured merged Mixpanel events-people dataset. Outputs the equivalent CSV `Cleaned_Events_With_SessionID.csv` which includes a sessionID column.
 
-`cleaned_labeling.ipynb`
+`Churn_Labeling.ipynb`
 
 Assigns labels to each user in the dataset based on churn definition. Outputs a dataset with each row having a user id, user information, and a label. 
 
@@ -42,11 +42,11 @@ The following are the steps necessary to run through our data pipelining process
 
 1. Create necessary input datasets from MixPanel using JQL
 
-2. Feed into `EDA.ipynb` for cleaning and merging. Outputs `cleaned_AllPeople.csv`.
+2. Feed into `Cleaning.ipynb` for cleaning and merging. Outputs `cleaned_AllPeople.csv`.
 
 3. Feed `cleaned_AllPeople.csv` into `Session_Labeling.ipynb` to generate session labels. Outputs `Cleaned_Events_With_SessionID.csv`.
 
-4. Feed `Cleaned_Events_With_SessionID.csv` into `cleaned_labeling.ipynb` to generate churn labels. Outputs `labeled_data.csv`.
+4. Feed `Cleaned_Events_With_SessionID.csv` into `Churn_Labeling.ipynb` to generate churn labels. Outputs `labeled_data.csv`.
 
 5. Feed `labeled_data.csv` and `Cleaned_Events_With_SessionID.csv` into `Churn_Metrics.ipynb` to generate member behavior metrics for each user. Our data, `labeled_data_with_metrics.csv`, is now ready to be modeled.
 
