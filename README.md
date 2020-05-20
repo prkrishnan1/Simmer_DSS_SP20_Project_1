@@ -65,7 +65,7 @@ Step 5: Make a pull request, and add Pranav and Rick as reviewers
 ## Properties
 
 Authors: 
-* [Pranav Krishnan](), 
+* [Pranav Krishnan](https://github.com/prkrishnan1), 
 * [Rick Zhang](https://github.com/wsxdrorange), 
 * [Erica Zhu](https://github.com/zhuerica), 
 * [Anna Waldorf](https://github.com/annawaldorf), 
