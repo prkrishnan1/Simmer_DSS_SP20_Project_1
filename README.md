@@ -10,7 +10,7 @@ Input dataset pulled from MixPanel using JQL interfacing. Includes both Mixpanel
 
 `Cleaning.ipynb`
 
-Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (cleaned_allPeople.csv) is sent to our labeling and metric development notebooks. 
+Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (`cleaned_allPeople.csv`) is sent to our labeling and metric development notebooks. 
 
 `Session_Labeling.ipynb`
 
@@ -18,7 +18,7 @@ Assigns unique session identifier numbers to each session in our events dataset.
 
 `Churn_Labeling.ipynb`
 
-Assigns labels to each user in the dataset based on churn definition. Outputs a dataset with each row having a user id, user information, and a label. 
+Assigns labels to each user in the dataset based on churn definition. Outputs a dataset with each row having a user id, user information, and a churn label (0: did not churn, 1: churned). 
 
 `Churn_Metrics.ipynb`
 
@@ -30,7 +30,7 @@ Includes any modeling using Decision Trees, Random Forest, XGBoost, and stacking
 
 `Modeling - Logistic.ipynb`
 
-Includes modeling using Logistic Regression and Support Vector Machines. Uses `labeled_data_with_metrics.csv`. Models are packaged implementations from Python's sklearn module. 
+Code for implementing the Logistic Regression model. Uses `labeled_data_with_metrics.csv`. Outputs nothing. Run the cells of the notebook and observe accuracy achieved at the end of the notebook. Models are packaged implementations from Python's sklearn module. 
 
 
 
