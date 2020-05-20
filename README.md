@@ -67,6 +67,11 @@ Step 5: Make a pull request, and add Pranav and Rick as reviewers
 Authors: 
 * [Pranav Krishnan](), 
 * [Rick Zhang](https://github.com/wsxdrorange), 
-Erica Zhu, Anna Waldorf, Grace Qiu, Jake Mercer, Henry Cheong, and Charles Van
+* [Erica Zhu](https://github.com/zhuerica), 
+* [Anna Waldorf](https://github.com/annawaldorf), 
+* [Grace Qiu](https://github.com/graqiu), 
+* [Jake Mercer](https://github.com/goldenscribe), 
+* [Henry Cheong](https://github.com/heneong),
+* [Charles Van](https://github.com/ccharlesvan)
 
 This repository was created by the Data Science Society at Berkeley's (https://www.dssberkeley.com/) Simmer project team in Spring 2020. All work can be transferred to Simmer for implementation.
