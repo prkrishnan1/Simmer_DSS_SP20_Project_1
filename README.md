@@ -10,7 +10,7 @@ Input dataset pulled from MixPanel using JQL interfacing. Includes both Mixpanel
 
 `Cleaning.ipynb`
 
-Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (`cleaned_allPeople.csv`) is sent to our labeling and metric development notebooks. 
+Merges the people and events datasets. Each column is cleaning and processed appropriately. The final dataset (`cleaned_AllPeople.csv`) is sent to our labeling and metric development notebooks. 
 
 `Session_Labeling.ipynb`
 
@@ -18,7 +18,7 @@ Assigns unique session identifier numbers to each session in our events dataset.
 
 `Churn_Labeling.ipynb`
 
-Assigns labels to each user in the dataset based on churn definition. Outputs a dataset with each row having a user id, user information, and a churn label (0: did not churn, 1: churned). 
+Assigns labels to each user in the dataset based on churn definition. Outputs a dataset with each row having a user id, user information, and a churn label (0: active, 1: churned). 
 
 `Churn_Metrics.ipynb`
 
